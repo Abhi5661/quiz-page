@@ -57,4 +57,7 @@ btnEl.addEventListener("click", function () {
 
   //   update score
   scoreEl.innerHTML = `${score} / 5`;
+  questionsEl.innerHTML = "";
+  btnEl.innerHTML = "Submitted";
+  btnEl.style.background = "green";
 });
